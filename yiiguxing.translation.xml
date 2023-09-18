@@ -1,0 +1,73 @@
+<application>
+  <component name="Translation.Cache">
+    <option name="lastTrimTime" value="1694757172078" />
+  </component>
+  <component name="Translation.Settings">
+    <option name="primaryLanguage" value="CHINESE" />
+  </component>
+  <component name="Translation.States">
+    <option name="newTranslationDialogWidth" value="598" />
+    <option name="newTranslationDialogX" value="2754" />
+    <option name="newTranslationDialogY" value="476" />
+    <option name="pinTranslationDialog" value="true" />
+    <histories>
+      <item value="Fast Shadow Receiver Projector XXXXX" />
+      <item value="Distribution" />
+      <item value="onece" />
+      <item value="stride" />
+      <item value="deferred pass (&quot;camera color&quot; + &quot;camera depth&quot;), the implicit depth surface of &quot;camera color&quot; is used instead of &quot;camera depth&quot;, because BuiltinRenderTextureType.CameraTarget for depth means there is no explicit depth attachm" />
+      <item value="around a bug where during gbuffer pass (MRT pass), the camera depth attachment is correctly bound, but during deferred pass (&quot;camera color&quot; + &quot;camera depth&quot;), the implicit depth surface of &quot;camera color&quot; is used instead of &quot;camera depth&quot;, because BuiltinRenderTextureType.CameraTarget for depth means there is no explicit depth attachment..." />
+      <item value="If URP is NOT rendering to RT neither rendering with OpenGL: - Source Depth is NOT fliped. We CANNOT flip when copying depth and don't flip when sampling. (ProjectionParams.x == 1)" />
+      <item value="- Source Depth is upside down. We need to copy depth by using a shader that has flipped matrix as well so we have same orientaiton for source and copy depth. - This also guarantess to be standard across if we are using a depth prepass. - When shaders (including shader graph) render objects that sample depth they adjust uv sign with _ProjectionParams.x. (https:docs.unity3d.comManualSL-PlatformDifferences.html) - All good." />
+      <item value="If URP is NOT rendering to RT neither rendering with OpenGL:" />
+      <item value="But if we only require it for post processing or the scene camera then we do it after rendering transparent objects Aim to have the most optimized render pass event for Depth Copy" />
+      <item value="The aim is to minimize the number of render passes" />
+      <item value="GLES can not use render texture's depth buffer with the color buffer of the backbuffer" />
+      <item value="If camera requires depth and there's no depth pre-pass we create a depth texture that can be read later by effect requiring it. When deferred renderer is enabled, we must always create a depth texture and CANNOT use BuiltinRenderTextureType.CameraTarget. This is to get around a bug where during gbuffer pass (MRT pass), the camera depth attachment is correctly bound, but during deferred pass (&quot;camera color&quot; + &quot;camera depth&quot;), the implicit depth surface of &quot;camera color&quot; is used instead of &quot;camera depth&quot;, because BuiltinRenderTextureType.CameraTarget for depth means there is no explicit depth attachment..." />
+      <item value="deferred pass (&quot;camera color&quot; + &quot;camera depth&quot;), the implicit depth surface of &quot;camera color&quot; is used instead of &quot;camera depth&quot;, because BuiltinRenderTextureType.CameraTarget for depth means there is no explicit depth attachment..." />
+      <item value="When deferred renderer is enabled, we must always create a depth texture and CANNOT use BuiltinRenderTextureType.CameraTarget. This is to get around a bug where during gbuffer pass (MRT pass), the camera depth attachment is correctly bound, but during deferred pass (&quot;camera color&quot; + &quot;camera depth&quot;), the implicit depth surface of &quot;camera color&quot; is used instead of &quot;camera depth&quot;, because BuiltinRenderTextureType.CameraTarget for depth means there is no explicit depth attachment..." />
+      <item value="When post-processing is enabled we can use the stack to resolve rendering to camera target (screen or RT). However when there are render passes executing after post we avoid resolving to screen so rendering continues (before sRGBConvertion etc)" />
+      <item value="berPost can only handle upscaling with linear filtering. All other filtering methods require the FinalPost pass." />
+      <item value="FXAA expects to be the last shader running on the image before it's presented to the screen. Since users are allowed to add additional render passes after post processing occurs, we can't run FXAA until all of those passes complete as well. The FinalPost pass is guaranteed to execute after user authored passes so FXAA is always run inside of it." />
+      <item value="Optimized store actions are very important on tile based GPUs and have a great impact on performance. if MSAA is enabled and any of the following passes need a copy of the color or depth target, make sure the MSAA'd surface is stored" />
+      <item value="Optimized store actions are very important on tile based GPUs and have a great impact on performance. if MSAA is enabled and any of the following passes need a copy of the color or depth target, make sure the MSAA'd surface is stored if following passes won't use it then just resolve (the Resolve action will still store the resolved surface, but discard the MSAA'd surface, which is very expensive to store)." />
+      <item value="Depth priming requires a manual resolve of MSAA depth right after the depth prepass. If autoresolve is supported but MSAA is 1x then a copy is still required." />
+      <item value="In deferred mode, depth-normal prepass does really primes the depth and normal buffers, instead of creating a copy. It is necessary because we need to render depth&amp;normal for forward-only geometry and it is the only way to get them before the SSAO pass." />
+      <item value="Doesn't create texture for Overlay cameras as they are already overlaying on top of created textures." />
+      <item value="Scene filtering redraws the objects on top of the resulting frame. It has to draw directly to the sceneview buffer." />
+      <item value="Temporarily disable depth priming on certain platforms such as Vulkan because we lack proper depth resolve support." />
+      <item value="Currently in non-MRT case, color attachment can actually be a depth attachment" />
+      <item value="Toolbar overlays must inherit `ToolbarOverlay` and implement a parameter-less constructor. The contents of a toolbar are populated with string IDs, which are passed to the base constructor. IDs are defined by EditorToolbarElementAttribute." />
+      <item value="structured buffer" />
+      <item value="structured buffer." />
+      <item value="structured" />
+      <item value="Diffusion" />
+      <item value="swizzle" />
+      <item value="Don't make UnityDrawCallInfo an actual CB on GL" />
+      <item value="Scheuermann" />
+      <item value="2 LdH LdH brdfData.perceptualRoughness;" />
+      <item value="Minmimum value is same as the Minimum Feather's value with the Minimum Step's value as threshold." />
+      <item value="Let's try to make realtime shadows work on a surface, which already contains baked lighting and shadowing from the main sun light." />
+      <item value="1) Calculate possible value in the shadow by subtracting estimated light contribution from the places occluded by realtime shadow: a) preserves other baked lights and light bounces b) eliminates shadows on the geometry facing away from the light 2) Clamp against user defined ShadowColor. 3) Pick original lightmap value, if it is the darkest one." />
+      <item value="Push an imaginary vertex towards camera in view space (linear, view space unit), then only overwrite original positionCS.z using imaginary vertex's result positionCS.z value Will only affect ZTest ZWrite's depth value of vertex shader" />
+      <item value="Most important part: lighting equation, edit it according to your needs, write whatever you want here, be creative! This function will be used by all direct lights (directionalpointspot)" />
+      <item value="here we prevent light over bright, while still want to preserve light color's hue" />
+      <item value="[remember you can write anything here, this is just a simple tutorial method] here we prevent light over bright, while still want to preserve light color's hue" />
+      <item value="If your project has a faster way to get camera fov in shader, you can replace this slow function to your method. For example, you write cmd.SetGlobalFloat(&quot;_CurrentCameraFOV&quot;,cameraFOV) using a new RendererFeature in C. For this tutorial shader, we will keep things simple and use this slower but convenient method to get camera fov" />
+      <item value="a special uniform for applyShadowBiasFixToHClipPos() only, it is not a per material uniform, so it is fine to write it outside our UnityPerMaterial CBUFFER" />
+      <item value="pragma once is a safe guard best practice in almost every .hlsl (need Unity2020 or up), doing this can make sure your .hlsl's user can include this .hlsl anywhere anytime without producing any multi include conflict pragma once" />
+      <item value="pragma once is a safe guard best practice in almost every .hlsl (need Unity2020 or up)," />
+      <item value="Push an imaginary vertex towards camera in view space (linear, view space unit), then only overwrite original positionCS.z using imaginary vertex's result positionCS.z value Will only affect ZTest ZWrite's depth value of vertex shader Useful for: -Hide ugly outline on faceeye -Make eyebrow render on top of hair -Solve ZFighting issue without moving geometry" />
+      <item value="For more information, visit -&gt; https:github.comColinLeung-NiloCatUnityURPToonLitShaderExample This file is intented for you to edit and experiment with different lighting equation. Add or edit whatever code you want here pragma once is a safe guard best practice in almost every .hlsl (need Unity2020 or up), doing this can make sure your .hlsl's user can include this .hlsl anywhere anytime without producing any multi include conflict" />
+      <item value="Useful for: -Hide ugly outline on faceeye -Make eyebrow render on top of hair -Solve ZFighting issue without moving geometry" />
+      <item value="Cull Front instead of Cull Back because Cull Front is a must for all extra pass outline method" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="109" />
+        <entry key="ENGLISH" value="110" />
+        <entry key="GERMAN" value="1" />
+      </map>
+    </option>
+  </component>
+</application>
