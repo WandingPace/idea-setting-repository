@@ -11,6 +11,8 @@
     <option name="newTranslationDialogY" value="476" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="m Directional Light Count" />
+      <item value="1" />
       <item value="Fast Shadow Receiver Projector XXXXX" />
       <item value="Distribution" />
       <item value="onece" />
@@ -59,13 +61,11 @@
       <item value="pragma once is a safe guard best practice in almost every .hlsl (need Unity2020 or up)," />
       <item value="Push an imaginary vertex towards camera in view space (linear, view space unit), then only overwrite original positionCS.z using imaginary vertex's result positionCS.z value Will only affect ZTest ZWrite's depth value of vertex shader Useful for: -Hide ugly outline on faceeye -Make eyebrow render on top of hair -Solve ZFighting issue without moving geometry" />
       <item value="For more information, visit -&gt; https:github.comColinLeung-NiloCatUnityURPToonLitShaderExample This file is intented for you to edit and experiment with different lighting equation. Add or edit whatever code you want here pragma once is a safe guard best practice in almost every .hlsl (need Unity2020 or up), doing this can make sure your .hlsl's user can include this .hlsl anywhere anytime without producing any multi include conflict" />
-      <item value="Useful for: -Hide ugly outline on faceeye -Make eyebrow render on top of hair -Solve ZFighting issue without moving geometry" />
-      <item value="Cull Front instead of Cull Back because Cull Front is a must for all extra pass outline method" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="109" />
-        <entry key="ENGLISH" value="110" />
+        <entry key="CHINESE" value="111" />
+        <entry key="ENGLISH" value="111" />
         <entry key="GERMAN" value="1" />
       </map>
     </option>
