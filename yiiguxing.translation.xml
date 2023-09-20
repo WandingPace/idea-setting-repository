@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1694757172078" />
+    <option name="lastTrimTime" value="1695205382186" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -11,6 +11,7 @@
     <option name="newTranslationDialogY" value="476" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Regarding itemOffset: minMaxZs contains [lights view 0, lights view 1, probes view 0, probes view 1] when using XR single pass instanced, and otherwise [lights, probes]. So we figure out what the offset is based on the view count and index." />
       <item value="m Directional Light Count" />
       <item value="1" />
       <item value="Fast Shadow Receiver Projector XXXXX" />
@@ -60,12 +61,11 @@
       <item value="pragma once is a safe guard best practice in almost every .hlsl (need Unity2020 or up), doing this can make sure your .hlsl's user can include this .hlsl anywhere anytime without producing any multi include conflict pragma once" />
       <item value="pragma once is a safe guard best practice in almost every .hlsl (need Unity2020 or up)," />
       <item value="Push an imaginary vertex towards camera in view space (linear, view space unit), then only overwrite original positionCS.z using imaginary vertex's result positionCS.z value Will only affect ZTest ZWrite's depth value of vertex shader Useful for: -Hide ugly outline on faceeye -Make eyebrow render on top of hair -Solve ZFighting issue without moving geometry" />
-      <item value="For more information, visit -&gt; https:github.comColinLeung-NiloCatUnityURPToonLitShaderExample This file is intented for you to edit and experiment with different lighting equation. Add or edit whatever code you want here pragma once is a safe guard best practice in almost every .hlsl (need Unity2020 or up), doing this can make sure your .hlsl's user can include this .hlsl anywhere anytime without producing any multi include conflict" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="111" />
-        <entry key="ENGLISH" value="111" />
+        <entry key="ENGLISH" value="112" />
         <entry key="GERMAN" value="1" />
       </map>
     </option>
