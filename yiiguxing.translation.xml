@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1695205382186" />
+    <option name="lastTrimTime" value="1695784227929" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -11,13 +11,18 @@
     <option name="newTranslationDialogY" value="476" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Calculate the radius of the circle using Pythagoras. We know that any point on the circle is a point on the sphere. Thus we can construct a triangle with the sphere center, circle center, and a point on the circle. We then want to find its distance to the circle center, as that will be equal to the radius. As the point is on the sphere, it must be `sphereRadius` from the sphere center, forming the hypotenuse. The other side is between the sphere and circle centers, which we've already calculated to be" />
+      <item value="Pythagoras" />
+      <item value="Near-plane clipping - will get overwritten if no clipping is needed. `y` is given for the view plane (Z=1), scale it so that it is on the near plane instead." />
+      <item value="Unsigned shortest distance from the sphere center to the plane." />
+      <item value="The shortest distance from the sphere center and the y-plane. The sign determines which side of the plane the center is on." />
+      <item value="Basis vectors in the y-plane for being able to parameterize the plane." />
       <item value="Calculate the radius of the circle using Pythagoras. We know that any point on the circle is a point on the sphere. Thus we can construct a triangle with the sphere center, circle center, and a point on the circle. We then want to find its distance to the circle center, as that will be equal to the radius. As the point is on the sphere, it must be `sphereRadius` from the sphere center, forming the hypotenuse. The other side is between the sphere and circle centers, which we've already calculated to be `distanceToPlane`." />
       <item value="Now that we have the circle, we can find the horizon points. Since we've parametrized the plane, we can just do this in 2D." />
       <item value="Any of these conditions will yield NaN due to negative square roots. They are signs that clipping is needed, so we fallback on the already calculated values in that case." />
       <item value="Calculate tile plane ranges for sphere" />
       <item value="cone Height Sq" />
       <item value="scale it so that it is on the near plane instead." />
-      <item value="Near-plane clipping - will get overwritten if no clipping is needed. `y` is given for the view plane (Z=1), scale it so that it is on the near plane instead." />
       <item value="Note: The y-plane is the plane that is determined by `y` in that it contains the vector (1, 0, 0) and goes through the points (0, y, 1) and (0, 0, 0). This would become a straight line in screen-space, and so it represents the boundary between two rows of tiles." />
       <item value="horizon points" />
       <item value="Project light sphere onto YZ plane, find the horizon points, and re-construct view space position of found points" />
@@ -56,16 +61,11 @@
       <item value="Optimized store actions are very important on tile based GPUs and have a great impact on performance. if MSAA is enabled and any of the following passes need a copy of the color or depth target, make sure the MSAA'd surface is stored if following passes won't use it then just resolve (the Resolve action will still store the resolved surface, but discard the MSAA'd surface, which is very expensive to store)." />
       <item value="Depth priming requires a manual resolve of MSAA depth right after the depth prepass. If autoresolve is supported but MSAA is 1x then a copy is still required." />
       <item value="In deferred mode, depth-normal prepass does really primes the depth and normal buffers, instead of creating a copy. It is necessary because we need to render depth&amp;normal for forward-only geometry and it is the only way to get them before the SSAO pass." />
-      <item value="Doesn't create texture for Overlay cameras as they are already overlaying on top of created textures." />
-      <item value="Scene filtering redraws the objects on top of the resulting frame. It has to draw directly to the sceneview buffer." />
-      <item value="Temporarily disable depth priming on certain platforms such as Vulkan because we lack proper depth resolve support." />
-      <item value="Currently in non-MRT case, color attachment can actually be a depth attachment" />
-      <item value="Toolbar overlays must inherit `ToolbarOverlay` and implement a parameter-less constructor. The contents of a toolbar are populated with string IDs, which are passed to the base constructor. IDs are defined by EditorToolbarElementAttribute." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="136" />
-        <entry key="ENGLISH" value="137" />
+        <entry key="CHINESE" value="141" />
+        <entry key="ENGLISH" value="142" />
         <entry key="GERMAN" value="1" />
       </map>
     </option>
