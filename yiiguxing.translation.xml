@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1695784227929" />
+    <option name="lastTrimTime" value="1696641794082" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -11,15 +11,45 @@
     <option name="newTranslationDialogY" value="476" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
-      <item value="Calculate the radius of the circle using Pythagoras. We know that any point on the circle is a point on the sphere. Thus we can construct a triangle with the sphere center, circle center, and a point on the circle. We then want to find its distance to the circle center, as that will be equal to the radius. As the point is on the sphere, it must be `sphereRadius` from the sphere center, forming the hypotenuse. The other side is between the sphere and circle centers, which we've already calculated to be" />
+      <item value="Get Cone Side Tangent Points" />
+      <item value="The first horizon point expressed as factors of" />
+      <item value="Find Y by putting polar into line equation and solving. Denormalize by dividing by U and V lengths." />
+      <item value="polar" />
+      <item value="Find Y by putting polar into line equation and solving" />
+      <item value="Major and minor axis of the ellipse" />
+      <item value="Find the polar line of the camera position in the normalized UV coordinate system." />
+      <item value="Project the camera position into a 2D coordinate system with the circle at (0, 0) and the ellipse major and minor axes as the coordinate system axes. This allows us to use the standard form of the ellipse equation, greatly simplifying the calculations." />
+      <item value="Intersect Ellipse Line" />
+      <item value="Calculates the horizon of a circle orthogonally projected to a plane as seen from the origin on the plane." />
+      <item value="Calculate the lines making up the sides of the cone as seen from the camera. `l1` and `l2` form lines from the light position." />
+      <item value="Calculate tile plane ranges for cone" />
+      <item value="Calculate tile plane ranges for cone." />
+      <item value="Calculate the lines making up the sides of the cone as seen from the camera. `l1` and `l2` form lines" />
+      <item value="Find the X bounds of the near-plane cone intersection, i.e. where x' = 0" />
+      <item value="Find the Y bounds of the near-plane cone intersection," />
+      <item value="The cross product will be the 0-vector if the light-direction and camera-to-light-position vectors are parallel. In that case, {1, 0, 0} is orthogonal to the light direction and we use that instead." />
+      <item value="Conic" />
+      <item value="Handle base circle clipping by intersecting it with the near-plane if needed." />
+      <item value="Project cone base into the XZ plane, find the horizon points, and re-construct view space position of found points." />
+      <item value="See comment for YZ plane for details" />
+      <item value="Project cone base (a circle) into the YZ plane, find the horizon points, and re-construct view space position of found points. When projecting a circle to a plane, it becomes an ellipse where the major axis is parallel to the line of intersection of the projection plane and the circle plane. We can get this by taking the cross product of the two plane normals, as the line of intersection will have to be a vector in both planes, and thus orthogonal to both normals. If the two plane normals are parallel, the cross product would return 0. In that case, the circle will project to a line segment, so we pick a vector in the plane pointing in the direction we're interested in finding horizon points in." />
+      <item value="the point is on the sphere, it must be `sphereRadius` from the sphere center, forming the hypotenuse. The other side is between the sphere and circle centers, which we've already calculated to be `distanceToPlane`." />
       <item value="Pythagoras" />
+      <item value="Finds the two points of intersection of a 3D circle and the near plane." />
+      <item value="thus orthogonal to both normals." />
+      <item value="Transform horizon points to view space and use if not clipped." />
+      <item value="They are signs that clipping is needed, so we fallback on the already calculated values in that case." />
+      <item value="negative square roots." />
+      <item value="Any of these conditions will yield NaN due to negative square roots. They are signs that clipping is needed, so we fallback on the already calculated values in that case." />
+      <item value="The shortest distance from the sphere center and the y-plane. The sign determines which side of the plane the center is on." />
+      <item value="Direction from origin to the circle center." />
+      <item value="The center of the intersection circle in the y-plane, which is the point on the plane closest to the sphere center. I.e. this is at `distanceToPlane` from the center." />
+      <item value="Calculate the radius of the circle using Pythagoras. We know that any point on the circle is a point on the sphere. Thus we can construct a triangle with the sphere center, circle center, and a point on the circle. We then want to find its distance to the circle center, as that will be equal to the radius. As the point is on the sphere, it must be `sphereRadius` from the sphere center, forming the hypotenuse. The other side is between the sphere and circle centers, which we've already calculated to be" />
       <item value="Near-plane clipping - will get overwritten if no clipping is needed. `y` is given for the view plane (Z=1), scale it so that it is on the near plane instead." />
       <item value="Unsigned shortest distance from the sphere center to the plane." />
-      <item value="The shortest distance from the sphere center and the y-plane. The sign determines which side of the plane the center is on." />
       <item value="Basis vectors in the y-plane for being able to parameterize the plane." />
       <item value="Calculate the radius of the circle using Pythagoras. We know that any point on the circle is a point on the sphere. Thus we can construct a triangle with the sphere center, circle center, and a point on the circle. We then want to find its distance to the circle center, as that will be equal to the radius. As the point is on the sphere, it must be `sphereRadius` from the sphere center, forming the hypotenuse. The other side is between the sphere and circle centers, which we've already calculated to be `distanceToPlane`." />
       <item value="Now that we have the circle, we can find the horizon points. Since we've parametrized the plane, we can just do this in 2D." />
-      <item value="Any of these conditions will yield NaN due to negative square roots. They are signs that clipping is needed, so we fallback on the already calculated values in that case." />
       <item value="Calculate tile plane ranges for sphere" />
       <item value="cone Height Sq" />
       <item value="scale it so that it is on the near plane instead." />
@@ -31,41 +61,11 @@
       <item value="and re-construct view space position of found points." />
       <item value="lies both on the sphere and the near plan" />
       <item value="Thus the hypotenuse is formed by (a) and (c) with length `range`, and the known side is formed" />
-      <item value="a point on the near plane at a distance `range` from the light position" />
-      <item value="Radius of circle formed by intersection of sphere and near plane. Found using Pythagoras with a right triangle formed by three points: (a) light position (b) light position projected to near plane (c) a point on the near plane at a distance `range` from the light position (i.e. lies both on the sphere and the near plane) Thus the hypotenuse is formed by (a) and (c) with length `range`, and the known side is formed by (a) and (b) with length equal to the distance between the near plane and the light position. The remaining unknown side is formed by (b) and (c) with length equal to the radius of the circle. m_ClipCircleRadius = sqrt(sq(light.range) - sq(m_Near - m_LightPosition.z));" />
-      <item value="Expands the tile Y range and the X range in the row containing the position." />
-      <item value="false sharing" />
-      <item value="respecting the asymmetric FOV (if it is used)" />
-      <item value="Regarding itemOffset: minMaxZs contains [lights view 0, lights view 1, probes view 0, probes view 1] when using XR single pass instanced, and otherwise [lights, probes]. So we figure out what the offset is based on the view count and index." />
-      <item value="m Directional Light Count" />
-      <item value="1" />
-      <item value="Fast Shadow Receiver Projector XXXXX" />
-      <item value="Distribution" />
-      <item value="onece" />
-      <item value="stride" />
-      <item value="deferred pass (&quot;camera color&quot; + &quot;camera depth&quot;), the implicit depth surface of &quot;camera color&quot; is used instead of &quot;camera depth&quot;, because BuiltinRenderTextureType.CameraTarget for depth means there is no explicit depth attachm" />
-      <item value="around a bug where during gbuffer pass (MRT pass), the camera depth attachment is correctly bound, but during deferred pass (&quot;camera color&quot; + &quot;camera depth&quot;), the implicit depth surface of &quot;camera color&quot; is used instead of &quot;camera depth&quot;, because BuiltinRenderTextureType.CameraTarget for depth means there is no explicit depth attachment..." />
-      <item value="If URP is NOT rendering to RT neither rendering with OpenGL: - Source Depth is NOT fliped. We CANNOT flip when copying depth and don't flip when sampling. (ProjectionParams.x == 1)" />
-      <item value="- Source Depth is upside down. We need to copy depth by using a shader that has flipped matrix as well so we have same orientaiton for source and copy depth. - This also guarantess to be standard across if we are using a depth prepass. - When shaders (including shader graph) render objects that sample depth they adjust uv sign with _ProjectionParams.x. (https:docs.unity3d.comManualSL-PlatformDifferences.html) - All good." />
-      <item value="If URP is NOT rendering to RT neither rendering with OpenGL:" />
-      <item value="But if we only require it for post processing or the scene camera then we do it after rendering transparent objects Aim to have the most optimized render pass event for Depth Copy" />
-      <item value="The aim is to minimize the number of render passes" />
-      <item value="GLES can not use render texture's depth buffer with the color buffer of the backbuffer" />
-      <item value="If camera requires depth and there's no depth pre-pass we create a depth texture that can be read later by effect requiring it. When deferred renderer is enabled, we must always create a depth texture and CANNOT use BuiltinRenderTextureType.CameraTarget. This is to get around a bug where during gbuffer pass (MRT pass), the camera depth attachment is correctly bound, but during deferred pass (&quot;camera color&quot; + &quot;camera depth&quot;), the implicit depth surface of &quot;camera color&quot; is used instead of &quot;camera depth&quot;, because BuiltinRenderTextureType.CameraTarget for depth means there is no explicit depth attachment..." />
-      <item value="deferred pass (&quot;camera color&quot; + &quot;camera depth&quot;), the implicit depth surface of &quot;camera color&quot; is used instead of &quot;camera depth&quot;, because BuiltinRenderTextureType.CameraTarget for depth means there is no explicit depth attachment..." />
-      <item value="When deferred renderer is enabled, we must always create a depth texture and CANNOT use BuiltinRenderTextureType.CameraTarget. This is to get around a bug where during gbuffer pass (MRT pass), the camera depth attachment is correctly bound, but during deferred pass (&quot;camera color&quot; + &quot;camera depth&quot;), the implicit depth surface of &quot;camera color&quot; is used instead of &quot;camera depth&quot;, because BuiltinRenderTextureType.CameraTarget for depth means there is no explicit depth attachment..." />
-      <item value="When post-processing is enabled we can use the stack to resolve rendering to camera target (screen or RT). However when there are render passes executing after post we avoid resolving to screen so rendering continues (before sRGBConvertion etc)" />
-      <item value="berPost can only handle upscaling with linear filtering. All other filtering methods require the FinalPost pass." />
-      <item value="FXAA expects to be the last shader running on the image before it's presented to the screen. Since users are allowed to add additional render passes after post processing occurs, we can't run FXAA until all of those passes complete as well. The FinalPost pass is guaranteed to execute after user authored passes so FXAA is always run inside of it." />
-      <item value="Optimized store actions are very important on tile based GPUs and have a great impact on performance. if MSAA is enabled and any of the following passes need a copy of the color or depth target, make sure the MSAA'd surface is stored" />
-      <item value="Optimized store actions are very important on tile based GPUs and have a great impact on performance. if MSAA is enabled and any of the following passes need a copy of the color or depth target, make sure the MSAA'd surface is stored if following passes won't use it then just resolve (the Resolve action will still store the resolved surface, but discard the MSAA'd surface, which is very expensive to store)." />
-      <item value="Depth priming requires a manual resolve of MSAA depth right after the depth prepass. If autoresolve is supported but MSAA is 1x then a copy is still required." />
-      <item value="In deferred mode, depth-normal prepass does really primes the depth and normal buffers, instead of creating a copy. It is necessary because we need to render depth&amp;normal for forward-only geometry and it is the only way to get them before the SSAO pass." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="141" />
-        <entry key="ENGLISH" value="142" />
+        <entry key="CHINESE" value="182" />
+        <entry key="ENGLISH" value="183" />
         <entry key="GERMAN" value="1" />
       </map>
     </option>
