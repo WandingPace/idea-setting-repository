@@ -11,6 +11,17 @@
     <option name="newTranslationDialogY" value="476" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Reinterpret" />
+      <item value="Populate list of probes we need to remove to avoid modifying dictionary while iterating." />
+      <item value="cannot do struct fixed arrays" />
+      <item value="We split up the allocation struct because C cannot do struct fixed arrays :(" />
+      <item value="Intersect lines with y-plane and clip if needed." />
+      <item value="o, d, u and v are expected to contain {x or y, z}. I.e. pass in x values to find tangents where x' = 0 Returns the two theta values as a float2. static float2 FindNearConicTangentTheta(float2 o, float2 d, float r, float2 u, float2 v) { var sqrt = math.sqrt(square(d.x) square(u.y) + square(d.x) square(v.y) - 2f d.x d.y u.x u.y - 2f d.x d.y v.x v.y + square(d.y) square(u.x) + square(d.y) square(v.x) - square(r) square(u.x) square(v.y) + 2f square(r) u.x u.y v.x v.y - square(r) square(u.y) square(v.x)); var denom = d.x v.y - d.y v.x - r u.x v.y + r u.y v.x; return 2 math.atan((-d.x u.y + d.y u.x + math.float2(1, -1) sqrt) denom); }" />
+      <item value="Returns the two theta values as a float2." />
+      <item value="o, d, u and v are expected to contain {x or y, z}. I.e. pass in x values to find tangents where x' = 0 Returns the two theta values as a float2." />
+      <item value="Handle base circle clipping by intersecting it with the near-plane if needed." />
+      <item value="Find Near Conic Tangent Theta" />
+      <item value="The cross product will be the 0-vector if the light-direction and camera-to-light-position vectors are parallel. In that case, {1, 0, 0} is orthogonal to the light direction and we use that instead." />
       <item value="Get Cone Side Tangent Points" />
       <item value="The first horizon point expressed as factors of" />
       <item value="Find Y by putting polar into line equation and solving. Denormalize by dividing by U and V lengths." />
@@ -27,9 +38,7 @@
       <item value="Calculate the lines making up the sides of the cone as seen from the camera. `l1` and `l2` form lines" />
       <item value="Find the X bounds of the near-plane cone intersection, i.e. where x' = 0" />
       <item value="Find the Y bounds of the near-plane cone intersection," />
-      <item value="The cross product will be the 0-vector if the light-direction and camera-to-light-position vectors are parallel. In that case, {1, 0, 0} is orthogonal to the light direction and we use that instead." />
       <item value="Conic" />
-      <item value="Handle base circle clipping by intersecting it with the near-plane if needed." />
       <item value="Project cone base into the XZ plane, find the horizon points, and re-construct view space position of found points." />
       <item value="See comment for YZ plane for details" />
       <item value="Project cone base (a circle) into the YZ plane, find the horizon points, and re-construct view space position of found points. When projecting a circle to a plane, it becomes an ellipse where the major axis is parallel to the line of intersection of the projection plane and the circle plane. We can get this by taking the cross product of the two plane normals, as the line of intersection will have to be a vector in both planes, and thus orthogonal to both normals. If the two plane normals are parallel, the cross product would return 0. In that case, the circle will project to a line segment, so we pick a vector in the plane pointing in the direction we're interested in finding horizon points in." />
@@ -52,20 +61,11 @@
       <item value="Now that we have the circle, we can find the horizon points. Since we've parametrized the plane, we can just do this in 2D." />
       <item value="Calculate tile plane ranges for sphere" />
       <item value="cone Height Sq" />
-      <item value="scale it so that it is on the near plane instead." />
-      <item value="Note: The y-plane is the plane that is determined by `y` in that it contains the vector (1, 0, 0) and goes through the points (0, y, 1) and (0, 0, 0). This would become a straight line in screen-space, and so it represents the boundary between two rows of tiles." />
-      <item value="horizon points" />
-      <item value="Project light sphere onto YZ plane, find the horizon points, and re-construct view space position of found points" />
-      <item value="Assumes a point on the sphere, i.e. at distance `range` from the light position. If spot light, we check the angle between the direction vector from the light position and the light direction vector. Note that division by range is to normalize the vector, as we know that the resulting vector will have length `range`." />
-      <item value="Finds the two horizon points seen from (0, 0) of a sphere projected onto either XZ or YZ. Takes clipping into account." />
-      <item value="and re-construct view space position of found points." />
-      <item value="lies both on the sphere and the near plan" />
-      <item value="Thus the hypotenuse is formed by (a) and (c) with length `range`, and the known side is formed" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="182" />
-        <entry key="ENGLISH" value="183" />
+        <entry key="CHINESE" value="193" />
+        <entry key="ENGLISH" value="194" />
         <entry key="GERMAN" value="1" />
       </map>
     </option>
