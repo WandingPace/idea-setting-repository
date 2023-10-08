@@ -11,6 +11,10 @@
     <option name="newTranslationDialogY" value="476" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="The upper 16 bits and bits representing values &lt; 32 are masked out" />
+      <item value="The latter is due to the fact that it will be included in what FIRST_BIT_LOW returns." />
+      <item value="The latter is due to the fact that it will be" />
+      <item value="USING STEREO MATRICES" />
       <item value="The light index can start at a non-multiple of 32, but the following iterations should always be multiples of 32. So we add 32 and mask out the lower bits." />
       <item value="Subtract 32 because it stores the index of the _next_ word to fetch, but we want the current. The upper 16 bits and bits representing values &lt; 32 are masked out. The latter is due to the fact that it will be included in what FIRST_BIT_LOW returns." />
       <item value="Calculate the lines making up the sides of the cone as seen from the camera. `l1` and `l2` form lines from the light position." />
@@ -57,15 +61,11 @@
       <item value="the point is on the sphere, it must be `sphereRadius` from the sphere center, forming the hypotenuse. The other side is between the sphere and circle centers, which we've already calculated to be `distanceToPlane`." />
       <item value="Pythagoras" />
       <item value="Finds the two points of intersection of a 3D circle and the near plane." />
-      <item value="thus orthogonal to both normals." />
-      <item value="Transform horizon points to view space and use if not clipped." />
-      <item value="They are signs that clipping is needed, so we fallback on the already calculated values in that case." />
-      <item value="negative square roots." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="213" />
-        <entry key="ENGLISH" value="214" />
+        <entry key="CHINESE" value="217" />
+        <entry key="ENGLISH" value="218" />
         <entry key="GERMAN" value="1" />
       </map>
     </option>
