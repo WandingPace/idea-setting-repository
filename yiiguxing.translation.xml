@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1696641794082" />
+    <option name="lastTrimTime" value="1697168980449" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -11,6 +11,8 @@
     <option name="newTranslationDialogY" value="476" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="expandable associative" />
+      <item value="expandable" />
       <item value="The upper 16 bits and bits representing values &lt; 32 are masked out" />
       <item value="The latter is due to the fact that it will be included in what FIRST_BIT_LOW returns." />
       <item value="The latter is due to the fact that it will be" />
@@ -59,13 +61,11 @@
       <item value="See comment for YZ plane for details" />
       <item value="Project cone base (a circle) into the YZ plane, find the horizon points, and re-construct view space position of found points. When projecting a circle to a plane, it becomes an ellipse where the major axis is parallel to the line of intersection of the projection plane and the circle plane. We can get this by taking the cross product of the two plane normals, as the line of intersection will have to be a vector in both planes, and thus orthogonal to both normals. If the two plane normals are parallel, the cross product would return 0. In that case, the circle will project to a line segment, so we pick a vector in the plane pointing in the direction we're interested in finding horizon points in." />
       <item value="the point is on the sphere, it must be `sphereRadius` from the sphere center, forming the hypotenuse. The other side is between the sphere and circle centers, which we've already calculated to be `distanceToPlane`." />
-      <item value="Pythagoras" />
-      <item value="Finds the two points of intersection of a 3D circle and the near plane." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="217" />
-        <entry key="ENGLISH" value="218" />
+        <entry key="CHINESE" value="219" />
+        <entry key="ENGLISH" value="220" />
         <entry key="GERMAN" value="1" />
       </map>
     </option>
