@@ -11,6 +11,18 @@
     <option name="newTranslationDialogY" value="476" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Smaller pass index that waits for this pass." />
+      <item value="Index of the pass that needs to be waited for." />
+      <item value="This will be used to &quot;lock&quot; resource from being reused until the pipe has been synchronized." />
+      <item value="We update the producer pass with the index of the smallest pass waiting for it. This will be used to &quot;lock&quot; resource from being reused until the pipe has been synchronized." />
+      <item value="We want to know the highest pass index below the current pass that writes to the resource." />
+      <item value="Producer will need a graphics fence that this pass will wait on." />
+      <item value="Current pass needs to wait for pass index lastProducer" />
+      <item value="Update latest pass waiting for the other pipe." />
+      <item value="If the passes are on different pipes, we need synchronization" />
+      <item value="Typedef for the in-engine RendererList API (to avoid conflicts with the experimental version)" />
+      <item value="they can contain stale handles from a previous render graph execution that could still be considered valid if we only checked the index. In order to avoid using those, we incorporate the execution index in a 16 bits hash to make sure the handle is coming from the current execution. If not, it's considered invalid. We store this validity mask in the upper 16 bits of the index." />
+      <item value="Note on handles validity. PassData classes used during render graph passes are pooled and because of that, when users don't fill them completely, they can contain stale handles from a previous render graph execution that could still be considered valid if we only checked the index. In order to avoid using those, we incorporate the execution index in a 16 bits hash to make sure the handle is coming from the current execution. If not, it's considered invalid. We store this validity mask in the upper 16 bits of the index." />
       <item value="expandable associative" />
       <item value="expandable" />
       <item value="The upper 16 bits and bits representing values &lt; 32 are masked out" />
@@ -49,23 +61,11 @@
       <item value="Major and minor axis of the ellipse" />
       <item value="Find the polar line of the camera position in the normalized UV coordinate system." />
       <item value="Project the camera position into a 2D coordinate system with the circle at (0, 0) and the ellipse major and minor axes as the coordinate system axes. This allows us to use the standard form of the ellipse equation, greatly simplifying the calculations." />
-      <item value="Intersect Ellipse Line" />
-      <item value="Calculates the horizon of a circle orthogonally projected to a plane as seen from the origin on the plane." />
-      <item value="Calculate tile plane ranges for cone" />
-      <item value="Calculate tile plane ranges for cone." />
-      <item value="Calculate the lines making up the sides of the cone as seen from the camera. `l1` and `l2` form lines" />
-      <item value="Find the X bounds of the near-plane cone intersection, i.e. where x' = 0" />
-      <item value="Find the Y bounds of the near-plane cone intersection," />
-      <item value="Conic" />
-      <item value="Project cone base into the XZ plane, find the horizon points, and re-construct view space position of found points." />
-      <item value="See comment for YZ plane for details" />
-      <item value="Project cone base (a circle) into the YZ plane, find the horizon points, and re-construct view space position of found points. When projecting a circle to a plane, it becomes an ellipse where the major axis is parallel to the line of intersection of the projection plane and the circle plane. We can get this by taking the cross product of the two plane normals, as the line of intersection will have to be a vector in both planes, and thus orthogonal to both normals. If the two plane normals are parallel, the cross product would return 0. In that case, the circle will project to a line segment, so we pick a vector in the plane pointing in the direction we're interested in finding horizon points in." />
-      <item value="the point is on the sphere, it must be `sphereRadius` from the sphere center, forming the hypotenuse. The other side is between the sphere and circle centers, which we've already calculated to be `distanceToPlane`." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="219" />
-        <entry key="ENGLISH" value="220" />
+        <entry key="CHINESE" value="231" />
+        <entry key="ENGLISH" value="232" />
         <entry key="GERMAN" value="1" />
       </map>
     </option>
