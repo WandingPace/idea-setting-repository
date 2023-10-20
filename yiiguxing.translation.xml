@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1697168980449" />
+    <option name="lastTrimTime" value="1697779563198" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -11,6 +11,8 @@
     <option name="newTranslationDialogY" value="476" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="homogenous space" />
+      <item value="homogenous" />
       <item value="Smaller pass index that waits for this pass." />
       <item value="Index of the pass that needs to be waited for." />
       <item value="This will be used to &quot;lock&quot; resource from being reused until the pipe has been synchronized." />
@@ -59,13 +61,11 @@
       <item value="polar" />
       <item value="Find Y by putting polar into line equation and solving" />
       <item value="Major and minor axis of the ellipse" />
-      <item value="Find the polar line of the camera position in the normalized UV coordinate system." />
-      <item value="Project the camera position into a 2D coordinate system with the circle at (0, 0) and the ellipse major and minor axes as the coordinate system axes. This allows us to use the standard form of the ellipse equation, greatly simplifying the calculations." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="231" />
-        <entry key="ENGLISH" value="232" />
+        <entry key="CHINESE" value="233" />
+        <entry key="ENGLISH" value="234" />
         <entry key="GERMAN" value="1" />
       </map>
     </option>
