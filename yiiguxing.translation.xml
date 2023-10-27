@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1697779563198" />
+    <option name="lastTrimTime" value="1698286954817" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -11,6 +11,7 @@
     <option name="newTranslationDialogY" value="476" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Calculate Z bounds of cone and check if it's overlapping with the near plane. From https:www.iquilezles.orgwwwarticlesdiskbboxdiskbbox.htm" />
       <item value="homogenous space" />
       <item value="homogenous" />
       <item value="Smaller pass index that waits for this pass." />
@@ -60,12 +61,11 @@
       <item value="Find Y by putting polar into line equation and solving. Denormalize by dividing by U and V lengths." />
       <item value="polar" />
       <item value="Find Y by putting polar into line equation and solving" />
-      <item value="Major and minor axis of the ellipse" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="233" />
-        <entry key="ENGLISH" value="234" />
+        <entry key="CHINESE" value="234" />
+        <entry key="ENGLISH" value="235" />
         <entry key="GERMAN" value="1" />
       </map>
     </option>
