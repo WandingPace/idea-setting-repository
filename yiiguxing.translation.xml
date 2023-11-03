@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1698286954817" />
+    <option name="lastTrimTime" value="1698932280275" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
@@ -11,6 +11,8 @@
     <option name="newTranslationDialogY" value="476" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Trianlgelute" />
+      <item value="lute" />
       <item value="Calculate Z bounds of cone and check if it's overlapping with the near plane. From https:www.iquilezles.orgwwwarticlesdiskbboxdiskbbox.htm" />
       <item value="homogenous space" />
       <item value="homogenous" />
@@ -59,13 +61,11 @@
       <item value="Get Cone Side Tangent Points" />
       <item value="The first horizon point expressed as factors of" />
       <item value="Find Y by putting polar into line equation and solving. Denormalize by dividing by U and V lengths." />
-      <item value="polar" />
-      <item value="Find Y by putting polar into line equation and solving" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="234" />
-        <entry key="ENGLISH" value="235" />
+        <entry key="CHINESE" value="236" />
+        <entry key="ENGLISH" value="237" />
         <entry key="GERMAN" value="1" />
       </map>
     </option>
