@@ -1,16 +1,25 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1698932280275" />
+    <option name="lastTrimTime" value="1701411319107" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="CHINESE" />
   </component>
   <component name="Translation.States">
-    <option name="newTranslationDialogWidth" value="598" />
-    <option name="newTranslationDialogX" value="2754" />
-    <option name="newTranslationDialogY" value="476" />
+    <option name="newTranslationDialogWidth" value="596" />
+    <option name="newTranslationDialogX" value="3216" />
+    <option name="newTranslationDialogY" value="773" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="eplise" />
+      <item value="magnitude" />
+      <item value="Caching the plane normals allows the culling code to avoid calling property getters on the Plane instances" />
+      <item value="Caches the absolute values of plane normals for re-use during frustum culling of multiple AABB instances" />
+      <item value="radius" />
+      <item value="We need to smoothly fade attenuation to light range. We start fading linearly at 80% of light range" />
+      <item value="directional and punctual lights." />
+      <item value="punctual lights" />
+      <item value="punctual" />
       <item value="Add a command to enable the hardware scissor rectangle" />
       <item value="Unity flips projection matrix in non-OpenGL platforms and when rendering to a render texture. If URP is rendering to RT: - Source Depth is upside down. We need to copy depth by using a shader that has flipped matrix as well so we have same orientaiton for source and copy depth. - This also guarantess to be standard across if we are using a depth prepass. - When shaders (including shader graph) render objects that sample depth they adjust uv sign with _ProjectionParams.x. (https:docs.unity3d.comManualSL-PlatformDifferences.html) - All good. If URP is NOT rendering to RT neither rendering with OpenGL: - Source Depth is NOT fliped. We CANNOT flip when copying depth and don't flip when sampling. (ProjectionParams.x == 1)" />
       <item value="Trianlgelute" />
@@ -52,20 +61,12 @@
       <item value="Setup Additional Light Constants" />
       <item value="Reinterpret" />
       <item value="Populate list of probes we need to remove to avoid modifying dictionary while iterating." />
-      <item value="cannot do struct fixed arrays" />
-      <item value="We split up the allocation struct because C cannot do struct fixed arrays :(" />
-      <item value="o, d, u and v are expected to contain {x or y, z}. I.e. pass in x values to find tangents where x' = 0 Returns the two theta values as a float2. static float2 FindNearConicTangentTheta(float2 o, float2 d, float r, float2 u, float2 v) { var sqrt = math.sqrt(square(d.x) square(u.y) + square(d.x) square(v.y) - 2f d.x d.y u.x u.y - 2f d.x d.y v.x v.y + square(d.y) square(u.x) + square(d.y) square(v.x) - square(r) square(u.x) square(v.y) + 2f square(r) u.x u.y v.x v.y - square(r) square(u.y) square(v.x)); var denom = d.x v.y - d.y v.x - r u.x v.y + r u.y v.x; return 2 math.atan((-d.x u.y + d.y u.x + math.float2(1, -1) sqrt) denom); }" />
-      <item value="Returns the two theta values as a float2." />
-      <item value="o, d, u and v are expected to contain {x or y, z}. I.e. pass in x values to find tangents where x' = 0 Returns the two theta values as a float2." />
-      <item value="Handle base circle clipping by intersecting it with the near-plane if needed." />
-      <item value="Find Near Conic Tangent Theta" />
-      <item value="The cross product will be the 0-vector if the light-direction and camera-to-light-position vectors are parallel. In that case, {1, 0, 0} is orthogonal to the light direction and we use that instead." />
-      <item value="Get Cone Side Tangent Points" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="238" />
-        <entry key="ENGLISH" value="239" />
+        <entry key="CHINESE" value="248" />
+        <entry key="ENGLISH" value="248" />
+        <entry key="ESTONIAN" value="1" />
         <entry key="GERMAN" value="1" />
       </map>
     </option>

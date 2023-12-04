@@ -6,8 +6,8 @@
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
-    <mask>*.hlsl</mask>
     <mask>*.shader</mask>
     <mask>*.cs</mask>
+    <mask>*.hlsl</mask>
   </component>
 </application>
